@@ -1,0 +1,9 @@
+package.json main:主要是给node用的，可不用太去理会
+jsx 每写一个尖括号的jsx语句就会调用 return React.creatElement('div', {className: 'shooping-list'},
+    React.creatElement('h1', /*...h1 children...*/),
+    React.creatElement('ul', /*...ul children...*/)
+);
+webpack js都一个打包工具，正常情况它的输入和产出都是js文件，最大的作用就是帮助我们吧js文件里面的import和require都多文件打包一个单一的js文件，达到我们在web上的性能和发布的需求
+用npx webpack执行打包，不再推荐用npm -g的形式
+
+babel 把新版本的js文件变成老版本的js文件都工具，在webpack中是以loader的形式区使用的
