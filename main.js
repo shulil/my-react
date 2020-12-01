@@ -1,5 +1,5 @@
 import {createElement, Component, render} from './toy-react.js';
-for(let i of [1,2,3,4] ) {
+for(let i of [1,2,3,4,5]) {
     console.log(i)
 }
 class MyComponent extends Component{
