@@ -1,4 +1,4 @@
-# my-react(手动实现react 核心功能，并成功运行reac官方井字棋小demo)
+# my-react(手动实现react 核心功能，并成功运行react官方井字棋小demo)
 
 1.JSX的原理和关键实现
 
